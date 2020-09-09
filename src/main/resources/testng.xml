@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo suite">
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="SauceDemo Test cases">
+		<classes>
+			<class name="com.qa.testcases.LoginPageTest"></class>
+			<class name="com.qa.testcases.HomePageTest"></class>
+			<class name="com.qa.testcases.CartPageTest"></class>
+			<class name="com.qa.testcases.CheckOutPageTest"></class>
+			<class name="com.qa.testcases.CheckoutOverviewPageTest"></class>
+			<class name="com.qa.testcases.FinishPageTest"></class>
+		</classes>
+	</test>
+</suite>

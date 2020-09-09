@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-09T22:13:14 SGT" name="SauceDemo suite" finished-at="2020-09-09T22:14:09 SGT" duration-ms="55550">
+    <groups>
+    </groups>
+    <test started-at="2020-09-09T22:13:14 SGT" name="SauceDemo Test cases" finished-at="2020-09-09T22:14:09 SGT" duration-ms="55550">
+      <class name="com.qa.testcases.FinishPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FinishPageTest@5b3f3ba0]" started-at="2020-09-09T22:13:14 SGT" name="setUp" finished-at="2020-09-09T22:13:42 SGT" duration-ms="28139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_Standard_User_Login_Cart_Checkout_Finish_Page()[pri:1, instance:com.qa.testcases.FinishPageTest@5b3f3ba0]" started-at="2020-09-09T22:13:42 SGT" name="TC18_Standard_User_Login_Cart_Checkout_Finish_Page" description="Verify processing order" finished-at="2020-09-09T22:13:42 SGT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_Standard_User_Login_Cart_Checkout_Finish_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FinishPageTest@5b3f3ba0]" started-at="2020-09-09T22:13:42 SGT" name="tearDown" finished-at="2020-09-09T22:13:43 SGT" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FinishPageTest@5b3f3ba0]" started-at="2020-09-09T22:13:43 SGT" name="setUp" finished-at="2020-09-09T22:14:08 SGT" duration-ms="25038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout()[pri:2, instance:com.qa.testcases.FinishPageTest@5b3f3ba0]" started-at="2020-09-09T22:14:08 SGT" name="TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout" description="Verify processing order and log out of the application" finished-at="2020-09-09T22:14:08 SGT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FinishPageTest@5b3f3ba0]" started-at="2020-09-09T22:14:08 SGT" name="tearDown" finished-at="2020-09-09T22:14:09 SGT" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.FinishPageTest -->
+    </test> <!-- SauceDemo Test cases -->
+  </suite> <!-- SauceDemo suite -->
+</testng-results>

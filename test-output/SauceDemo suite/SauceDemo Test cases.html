@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  SauceDemo Test cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SauceDemo Test cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 09 17:10:55 SGT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>556 seconds (556551 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcases.CartPageTest.TC10_Standard_User_Login_Add_Products_To_Cart_And_Remove()'><b>TC10_Standard_User_Login_Add_Products_To_Cart_And_Remove</b><br>Test class: com.qa.testcases.CartPageTest<br>Test method: Verify whether user is able to add and remove products from cart</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CartPageTest@706cb08</td></tr>
+<tr>
+<td title='com.qa.testcases.CartPageTest.TC11_Standard_User_Login_Product_Details_Page_Your_Cart_Functionality_Continue_Shopping()'><b>TC11_Standard_User_Login_Product_Details_Page_Your_Cart_Functionality_Continue_Shopping</b><br>Test class: com.qa.testcases.CartPageTest<br>Test method: Verify whether user is able to continue shopping from the cart page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CartPageTest@706cb08</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckOutPageTest.TC12_Standard_User_Login_Cart_Checkout_Your_Info_Page()'><b>TC12_Standard_User_Login_Cart_Checkout_Your_Info_Page</b><br>Test class: com.qa.testcases.CheckOutPageTest<br>Test method: Verify fields in the checkout page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CheckOutPageTest@4e25147a</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckOutPageTest.TC13_Standard_User_Login_Cart_Checkout_Your_Info_Page_Navigation()'><b>TC13_Standard_User_Login_Cart_Checkout_Your_Info_Page_Navigation</b><br>Test class: com.qa.testcases.CheckOutPageTest<br>Test method: Verify cancel functionality in the checkout page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CheckOutPageTest@4e25147a</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckOutPageTest.TC14_Standard_User_Login_Cart_Checkout_Overview_Page_FirstName_Validation()'><b>TC14_Standard_User_Login_Cart_Checkout_Overview_Page_FirstName_Validation</b><br>Test class: com.qa.testcases.CheckOutPageTest<br>Test method: First name field validation in the checkout page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CheckOutPageTest@4e25147a</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckOutPageTest.TC15_Standard_User_Login_Cart_Checkout_Overview_Page_LastName_Validation()'><b>TC15_Standard_User_Login_Cart_Checkout_Overview_Page_LastName_Validation</b><br>Test class: com.qa.testcases.CheckOutPageTest<br>Test method: Last name field validation in the checkout page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CheckOutPageTest@4e25147a</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckOutPageTest.TC16_Standard_User_Login_Cart_Checkout_Overview_Page_PostalCode_Validation()'><b>TC16_Standard_User_Login_Cart_Checkout_Overview_Page_PostalCode_Validation</b><br>Test class: com.qa.testcases.CheckOutPageTest<br>Test method: Postal code field validation in the checkout page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CheckOutPageTest@4e25147a</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckoutOverviewPageTest.TC17_Standard_User_Login_Verify_Product_Total()'><b>TC17_Standard_User_Login_Verify_Product_Total</b><br>Test class: com.qa.testcases.CheckoutOverviewPageTest<br>Test method: Verify the total amount of the products</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.CheckoutOverviewPageTest@6b68cb27</td></tr>
+<tr>
+<td title='com.qa.testcases.CheckoutOverviewPageTest.TC18_Standard_User_Login_Cart_Checkout_Finish_Page()'><b>TC18_Standard_User_Login_Cart_Checkout_Finish_Page</b><br>Test class: com.qa.testcases.CheckoutOverviewPageTest<br>Test method: Verify Checkout finish functionality</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.CheckoutOverviewPageTest@6b68cb27</td></tr>
+<tr>
+<td title='com.qa.testcases.FinishPageTest.TC18_Standard_User_Login_Cart_Checkout_Finish_Page()'><b>TC18_Standard_User_Login_Cart_Checkout_Finish_Page</b><br>Test class: com.qa.testcases.FinishPageTest<br>Test method: Verify processing order</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.FinishPageTest@675ffd1d</td></tr>
+<tr>
+<td title='com.qa.testcases.FinishPageTest.TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout()'><b>TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout</b><br>Test class: com.qa.testcases.FinishPageTest<br>Test method: Verify processing order and log out of the application</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.FinishPageTest@675ffd1d</td></tr>
+<tr>
+<td title='com.qa.testcases.LoginPageTest.TC1_Login_Page_Standard_User_Login()'><b>TC1_Login_Page_Standard_User_Login</b><br>Test class: com.qa.testcases.LoginPageTest<br>Test method: Verify valid user login</td>
+<td></td>
+<td>10</td>
+<td>com.qa.testcases.LoginPageTest@6dd91637</td></tr>
+<tr>
+<td title='com.qa.testcases.LoginPageTest.TC2_Login_Page_Locked_Out_User_Login()'><b>TC2_Login_Page_Locked_Out_User_Login</b><br>Test class: com.qa.testcases.LoginPageTest<br>Test method: Verify Invalid user login</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.LoginPageTest@6dd91637</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC2_Verify_Landing_Page()'><b>TC2_Verify_Landing_Page</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify Products Page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC3_Standard_User_Verify_Sort_Name_A_to_Z()'><b>TC3_Standard_User_Verify_Sort_Name_A_to_Z</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify A to Z sorting functionality in Products page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC4_Standard_User_Verify_Sort_Name_Z_to_A()'><b>TC4_Standard_User_Verify_Sort_Name_Z_to_A</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify Z to A sorting functionality in Products page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC5_Standard_User_Verify_Sort_Price_Low_to_High()'><b>TC5_Standard_User_Verify_Sort_Price_Low_to_High</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify sorting functionality based on price(low to high) in Products page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC6_Standard_User_Verify_Sort_Price_High_to_Low()'><b>TC6_Standard_User_Verify_Sort_Price_High_to_Low</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify sorting functionality based on price(high to low) in Products page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC7_Product_Cart_Icon_Displayed()'><b>TC7_Product_Cart_Icon_Displayed</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify whether Cart Icon is displayed in Products page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC8_Standard_User_Login_Product_Details_Page_Add_to_Cart()'><b>TC8_Standard_User_Login_Product_Details_Page_Add_to_Cart</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify whether user is able to add products to Cart</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+<tr>
+<td title='com.qa.testcases.HomePageTest.TC9_Standard_User_Login_Product_Details_Page_Add_to_Cart_Multiple_Products_Add()'><b>TC9_Standard_User_Login_Product_Details_Page_Add_to_Cart_Multiple_Products_Add</b><br>Test class: com.qa.testcases.HomePageTest<br>Test method: Verify whether user is able to add multiple products to Cart</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.HomePageTest@45792847</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRM Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CRM App Test cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="glassdoorLogoTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- CRM App Test cases(failed) -->
+</suite> <!-- Failed suite [CRM Test suite] -->

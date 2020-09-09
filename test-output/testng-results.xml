@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-09T17:10:55 SGT" name="SauceDemo suite" finished-at="2020-09-09T17:20:12 SGT" duration-ms="556551">
+    <groups>
+    </groups>
+    <test started-at="2020-09-09T17:10:55 SGT" name="SauceDemo Test cases" finished-at="2020-09-09T17:20:12 SGT" duration-ms="556551">
+      <class name="com.qa.testcases.CheckoutOverviewPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckoutOverviewPageTest@6b68cb27]" started-at="2020-09-09T17:17:56 SGT" name="setUp" finished-at="2020-09-09T17:18:42 SGT" duration-ms="45737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC17_Standard_User_Login_Verify_Product_Total()[pri:1, instance:com.qa.testcases.CheckoutOverviewPageTest@6b68cb27]" started-at="2020-09-09T17:18:42 SGT" name="TC17_Standard_User_Login_Verify_Product_Total" description="Verify the total amount of the products" finished-at="2020-09-09T17:18:42 SGT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_Standard_User_Login_Verify_Product_Total -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckoutOverviewPageTest@6b68cb27]" started-at="2020-09-09T17:18:42 SGT" name="tearDown" finished-at="2020-09-09T17:18:43 SGT" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckoutOverviewPageTest@6b68cb27]" started-at="2020-09-09T17:18:43 SGT" name="setUp" finished-at="2020-09-09T17:19:18 SGT" duration-ms="34325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_Standard_User_Login_Cart_Checkout_Finish_Page()[pri:2, instance:com.qa.testcases.CheckoutOverviewPageTest@6b68cb27]" started-at="2020-09-09T17:19:18 SGT" name="TC18_Standard_User_Login_Cart_Checkout_Finish_Page" description="Verify Checkout finish functionality" finished-at="2020-09-09T17:19:19 SGT" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_Standard_User_Login_Cart_Checkout_Finish_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckoutOverviewPageTest@6b68cb27]" started-at="2020-09-09T17:19:19 SGT" name="tearDown" finished-at="2020-09-09T17:19:20 SGT" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CheckoutOverviewPageTest -->
+      <class name="com.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:11:24 SGT" name="setUp" finished-at="2020-09-09T17:11:48 SGT" duration-ms="23973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC2_Verify_Landing_Page()[pri:1, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:11:48 SGT" name="TC2_Verify_Landing_Page" description="Verify Products Page" finished-at="2020-09-09T17:11:48 SGT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Verify_Landing_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:11:48 SGT" name="tearDown" finished-at="2020-09-09T17:11:49 SGT" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:11:49 SGT" name="setUp" finished-at="2020-09-09T17:12:04 SGT" duration-ms="15493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC4_Standard_User_Verify_Sort_Name_Z_to_A()[pri:2, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:04 SGT" name="TC4_Standard_User_Verify_Sort_Name_Z_to_A" description="Verify Z to A sorting functionality in Products page" finished-at="2020-09-09T17:12:05 SGT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_Standard_User_Verify_Sort_Name_Z_to_A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:05 SGT" name="tearDown" finished-at="2020-09-09T17:12:06 SGT" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:06 SGT" name="setUp" finished-at="2020-09-09T17:12:25 SGT" duration-ms="19095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC3_Standard_User_Verify_Sort_Name_A_to_Z()[pri:3, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:25 SGT" name="TC3_Standard_User_Verify_Sort_Name_A_to_Z" description="Verify A to Z sorting functionality in Products page" finished-at="2020-09-09T17:12:25 SGT" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_Standard_User_Verify_Sort_Name_A_to_Z -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:25 SGT" name="tearDown" finished-at="2020-09-09T17:12:26 SGT" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:26 SGT" name="setUp" finished-at="2020-09-09T17:12:45 SGT" duration-ms="18995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC5_Standard_User_Verify_Sort_Price_Low_to_High()[pri:4, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:45 SGT" name="TC5_Standard_User_Verify_Sort_Price_Low_to_High" description="Verify sorting functionality based on price(low to high) in Products page" finished-at="2020-09-09T17:12:45 SGT" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_Standard_User_Verify_Sort_Price_Low_to_High -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:45 SGT" name="tearDown" finished-at="2020-09-09T17:12:46 SGT" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:12:46 SGT" name="setUp" finished-at="2020-09-09T17:13:10 SGT" duration-ms="24187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC6_Standard_User_Verify_Sort_Price_High_to_Low()[pri:5, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:13:10 SGT" name="TC6_Standard_User_Verify_Sort_Price_High_to_Low" description="Verify sorting functionality based on price(high to low) in Products page" finished-at="2020-09-09T17:13:10 SGT" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_Standard_User_Verify_Sort_Price_High_to_Low -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:13:10 SGT" name="tearDown" finished-at="2020-09-09T17:13:11 SGT" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:13:11 SGT" name="setUp" finished-at="2020-09-09T17:13:28 SGT" duration-ms="17450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC7_Product_Cart_Icon_Displayed()[pri:6, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:13:28 SGT" name="TC7_Product_Cart_Icon_Displayed" description="Verify whether Cart Icon is displayed in Products page" finished-at="2020-09-09T17:13:29 SGT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7_Product_Cart_Icon_Displayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:13:29 SGT" name="tearDown" finished-at="2020-09-09T17:13:29 SGT" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:13:29 SGT" name="setUp" finished-at="2020-09-09T17:14:14 SGT" duration-ms="44666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC8_Standard_User_Login_Product_Details_Page_Add_to_Cart()[pri:7, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:14:14 SGT" name="TC8_Standard_User_Login_Product_Details_Page_Add_to_Cart" description="Verify whether user is able to add products to Cart" finished-at="2020-09-09T17:14:14 SGT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_Standard_User_Login_Product_Details_Page_Add_to_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:14:14 SGT" name="tearDown" finished-at="2020-09-09T17:14:15 SGT" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:14:15 SGT" name="setUp" finished-at="2020-09-09T17:14:36 SGT" duration-ms="21180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC9_Standard_User_Login_Product_Details_Page_Add_to_Cart_Multiple_Products_Add()[pri:8, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:14:36 SGT" name="TC9_Standard_User_Login_Product_Details_Page_Add_to_Cart_Multiple_Products_Add" description="Verify whether user is able to add multiple products to Cart" finished-at="2020-09-09T17:14:37 SGT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_Standard_User_Login_Product_Details_Page_Add_to_Cart_Multiple_Products_Add -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@45792847]" started-at="2020-09-09T17:14:37 SGT" name="tearDown" finished-at="2020-09-09T17:14:38 SGT" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.HomePageTest -->
+      <class name="com.qa.testcases.FinishPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FinishPageTest@675ffd1d]" started-at="2020-09-09T17:19:20 SGT" name="setUp" finished-at="2020-09-09T17:19:45 SGT" duration-ms="24953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_Standard_User_Login_Cart_Checkout_Finish_Page()[pri:1, instance:com.qa.testcases.FinishPageTest@675ffd1d]" started-at="2020-09-09T17:19:45 SGT" name="TC18_Standard_User_Login_Cart_Checkout_Finish_Page" description="Verify processing order" finished-at="2020-09-09T17:19:45 SGT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_Standard_User_Login_Cart_Checkout_Finish_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FinishPageTest@675ffd1d]" started-at="2020-09-09T17:19:45 SGT" name="tearDown" finished-at="2020-09-09T17:19:46 SGT" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FinishPageTest@675ffd1d]" started-at="2020-09-09T17:19:46 SGT" name="setUp" finished-at="2020-09-09T17:20:10 SGT" duration-ms="24521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout()[pri:2, instance:com.qa.testcases.FinishPageTest@675ffd1d]" started-at="2020-09-09T17:20:10 SGT" name="TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout" description="Verify processing order and log out of the application" finished-at="2020-09-09T17:20:11 SGT" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_Standard_User_Login_Cart_Checkout_Finish_Page_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FinishPageTest@675ffd1d]" started-at="2020-09-09T17:20:11 SGT" name="tearDown" finished-at="2020-09-09T17:20:12 SGT" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.FinishPageTest -->
+      <class name="com.qa.testcases.CheckOutPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:15:36 SGT" name="setUp" finished-at="2020-09-09T17:16:11 SGT" duration-ms="34669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC12_Standard_User_Login_Cart_Checkout_Your_Info_Page()[pri:1, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:16:11 SGT" name="TC12_Standard_User_Login_Cart_Checkout_Your_Info_Page" description="Verify fields in the checkout page" finished-at="2020-09-09T17:16:11 SGT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_Standard_User_Login_Cart_Checkout_Your_Info_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:16:11 SGT" name="tearDown" finished-at="2020-09-09T17:16:12 SGT" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:16:12 SGT" name="setUp" finished-at="2020-09-09T17:16:40 SGT" duration-ms="28384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC13_Standard_User_Login_Cart_Checkout_Your_Info_Page_Navigation()[pri:2, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:16:40 SGT" name="TC13_Standard_User_Login_Cart_Checkout_Your_Info_Page_Navigation" description="Verify cancel functionality in the checkout page" finished-at="2020-09-09T17:16:41 SGT" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_Standard_User_Login_Cart_Checkout_Your_Info_Page_Navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:16:41 SGT" name="tearDown" finished-at="2020-09-09T17:16:42 SGT" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:16:42 SGT" name="setUp" finished-at="2020-09-09T17:17:01 SGT" duration-ms="19089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_Standard_User_Login_Cart_Checkout_Overview_Page_FirstName_Validation()[pri:3, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:01 SGT" name="TC14_Standard_User_Login_Cart_Checkout_Overview_Page_FirstName_Validation" description="First name field validation in the checkout page" finished-at="2020-09-09T17:17:01 SGT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_Standard_User_Login_Cart_Checkout_Overview_Page_FirstName_Validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:01 SGT" name="tearDown" finished-at="2020-09-09T17:17:02 SGT" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:02 SGT" name="setUp" finished-at="2020-09-09T17:17:20 SGT" duration-ms="17772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC15_Standard_User_Login_Cart_Checkout_Overview_Page_LastName_Validation()[pri:4, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:20 SGT" name="TC15_Standard_User_Login_Cart_Checkout_Overview_Page_LastName_Validation" description="Last name field validation in the checkout page" finished-at="2020-09-09T17:17:21 SGT" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_Standard_User_Login_Cart_Checkout_Overview_Page_LastName_Validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:21 SGT" name="tearDown" finished-at="2020-09-09T17:17:22 SGT" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:22 SGT" name="setUp" finished-at="2020-09-09T17:17:55 SGT" duration-ms="33414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC16_Standard_User_Login_Cart_Checkout_Overview_Page_PostalCode_Validation()[pri:5, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:55 SGT" name="TC16_Standard_User_Login_Cart_Checkout_Overview_Page_PostalCode_Validation" description="Postal code field validation in the checkout page" finished-at="2020-09-09T17:17:55 SGT" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_Standard_User_Login_Cart_Checkout_Overview_Page_PostalCode_Validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckOutPageTest@4e25147a]" started-at="2020-09-09T17:17:55 SGT" name="tearDown" finished-at="2020-09-09T17:17:56 SGT" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CheckOutPageTest -->
+      <class name="com.qa.testcases.CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CartPageTest@706cb08]" started-at="2020-09-09T17:14:38 SGT" name="setUp" finished-at="2020-09-09T17:15:02 SGT" duration-ms="24738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC10_Standard_User_Login_Add_Products_To_Cart_And_Remove()[pri:1, instance:com.qa.testcases.CartPageTest@706cb08]" started-at="2020-09-09T17:15:02 SGT" name="TC10_Standard_User_Login_Add_Products_To_Cart_And_Remove" description="Verify whether user is able to add and remove products from cart" finished-at="2020-09-09T17:15:03 SGT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_Standard_User_Login_Add_Products_To_Cart_And_Remove -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CartPageTest@706cb08]" started-at="2020-09-09T17:15:03 SGT" name="tearDown" finished-at="2020-09-09T17:15:03 SGT" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CartPageTest@706cb08]" started-at="2020-09-09T17:15:03 SGT" name="setUp" finished-at="2020-09-09T17:15:35 SGT" duration-ms="31272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC11_Standard_User_Login_Product_Details_Page_Your_Cart_Functionality_Continue_Shopping()[pri:2, instance:com.qa.testcases.CartPageTest@706cb08]" started-at="2020-09-09T17:15:35 SGT" name="TC11_Standard_User_Login_Product_Details_Page_Your_Cart_Functionality_Continue_Shopping" description="Verify whether user is able to continue shopping from the cart page" finished-at="2020-09-09T17:15:35 SGT" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_Standard_User_Login_Product_Details_Page_Your_Cart_Functionality_Continue_Shopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CartPageTest@706cb08]" started-at="2020-09-09T17:15:35 SGT" name="tearDown" finished-at="2020-09-09T17:15:36 SGT" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CartPageTest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@6dd91637]" started-at="2020-09-09T17:10:55 SGT" name="setUp" finished-at="2020-09-09T17:11:05 SGT" duration-ms="9670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC1_Login_Page_Standard_User_Login()[pri:1, instance:com.qa.testcases.LoginPageTest@6dd91637]" started-at="2020-09-09T17:11:05 SGT" name="TC1_Login_Page_Standard_User_Login" description="Verify valid user login" finished-at="2020-09-09T17:11:15 SGT" duration-ms="10337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_Login_Page_Standard_User_Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6dd91637]" started-at="2020-09-09T17:11:15 SGT" name="TearDown" finished-at="2020-09-09T17:11:16 SGT" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@6dd91637]" started-at="2020-09-09T17:11:16 SGT" name="setUp" finished-at="2020-09-09T17:11:23 SGT" duration-ms="6521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC2_Login_Page_Locked_Out_User_Login()[pri:2, instance:com.qa.testcases.LoginPageTest@6dd91637]" started-at="2020-09-09T17:11:23 SGT" name="TC2_Login_Page_Locked_Out_User_Login" description="Verify Invalid user login" finished-at="2020-09-09T17:11:23 SGT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Login_Page_Locked_Out_User_Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6dd91637]" started-at="2020-09-09T17:11:23 SGT" name="TearDown" finished-at="2020-09-09T17:11:24 SGT" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- SauceDemo Test cases -->
+  </suite> <!-- SauceDemo suite -->
+</testng-results>

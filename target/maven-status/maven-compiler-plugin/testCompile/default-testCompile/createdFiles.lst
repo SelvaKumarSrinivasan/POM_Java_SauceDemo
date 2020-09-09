@@ -1,0 +1,6 @@
+com\qa\testcases\CartPageTest.class
+com\qa\testcases\HomePageTest.class
+com\qa\testcases\FinishPageTest.class
+com\qa\testcases\LoginPageTest.class
+com\qa\testcases\CheckoutOverviewPageTest.class
+com\qa\testcases\CheckOutPageTest.class
